@@ -1,0 +1,321 @@
+<head>
+<title>p5_grid</title>
+<meta charset="utf-8" />
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0, user-scalable=yes"
+/>
+
+<link rel="stylesheet" href="styles.css" />
+
+<style>
+  * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+.page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  width: 100vh;
+  background: #fff450;
+ 
+  
+}
+
+
+
+.poster {
+  position: relative;
+  display: grid;
+  grid-template-rows: 60px 90px 120px 1fr;
+  
+  
+}
+
+
+
+.poster::before {
+  content: "KILO KISH (US, LIVE)";
+  padding: 12px;
+  align-items: center;
+}
+
+
+
+.poster::after {
+  content: "";
+}
+
+
+
+.poster {
+  background:
+    
+    linear-gradient(#0b3bbd, #0b3bbd)
+      right bottom / 50% 34% no-repeat,
+
+    
+    linear-gradient(#43b05c, #43b05c)
+      left bottom / 50% 50% no-repeat,
+      
+
+   
+    linear-gradient(#b030c7, #b030c7)
+      19% 59% / 100% 55% no-repeat,
+
+    
+    linear-gradient(#6fb56d, #6fb56d)
+      0 15% / 78% 17% no-repeat;
+}
+
+
+
+
+.poster {
+  color: black;
+}
+
+.poster::before {
+  grid-row: 1;
+}
+
+
+.grey {
+  background: #bcdcff;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  
+
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%
+  );
+}
+
+.cubo {
+  position: absolute;
+  top: 286px;
+  left: 84px;
+  width: 120px;
+  height: 80px;
+}
+
+.cub1 {
+  position: absolute;
+  top: 286px;
+  left: 450px;
+  width: 120px;
+  height: 80px;
+}
+
+.cub2 {
+  position: absolute;
+  top: 650px;
+  left: 82px;
+  width: 120px;
+  height: 80px;
+}
+
+.cub3 {
+  position: absolute;
+  top: 650px;
+  left: 450px;
+  width: 120px;
+  height: 80px;
+}
+
+.cubo4{
+  position: absolute;
+  top: 50px;
+  left: 265px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo5{
+  position: absolute;
+  top: 45px;
+  left: 265px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo6{
+  position: absolute;
+  top: 45px;
+  left: 630px;
+  width: 120px;
+  height: 80px;
+
+}
+
+
+
+.cubo7{
+  position: absolute;
+  top: 130px;
+  left: 346px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo8{
+  position: absolute;
+  top: 490px;
+  left: 346px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo10{
+  position: absolute;
+  top: 411px;
+  left: 265px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo11{
+  position: absolute;
+  top: 490px;
+  right: 90rem;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo12{
+  position: absolute;
+  top: 130px;
+  right: 90rem;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo10{
+  position: absolute;
+  top: 41px;
+  left: 265px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo13{
+  position: absolute;
+  top: 409px;
+  left: 265px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.cubo14{
+  position: absolute;
+  top: 409px;
+  left: 631px;
+  width: 120px;
+  height: 80px;
+
+}
+
+.texto {
+  position: relative;
+  margin-left: 20px;
+  
+}
+
+.texto1 {
+  position: relative;
+  margin-left: 20px;
+  
+}
+
+.texto2 {
+  position: relative;
+  margin-left: 20px;
+  
+}
+
+.texto3 {
+  position: relative;
+  margin-left: 20px;
+  
+}
+</style>
+
+
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Poster</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+
+<div class="page">
+ 
+  
+
+ 
+ 
+  <div class="poster"> <div class="texto3">MUJUICE (DJ-SET)<br><br>KIRIL IVANOV (SBPCH, DJ-SET) <br><br><br><br><br><br><br><br><br><br><br class="STRELKA">STRELKA</BR></div></div>
+  
+  <div class="poster"> <div class="texto2">MUJUICE (DJ-SET)<br><br>KIRIL IVANOV (SBPCH, DJ-SET)<br><br><br><br><br><br><br><br><br><br><br class="STRELKA">STRELKA</BR></div></div>
+  
+  <div class="poster"> <div class="texto1">MUJUICE (DJ-SET) <br><br>KIRIL IVANOV (SBPCH, DJ-SET)<br><br><br><br><br><br><br><br><br><br><br class="STRELKA">STRELKA</BR></div></div>
+ 
+  <div class="poster"> <div class="texto">MUJUICE (DJ-SET) <br><br>
+    KIRIL IVANOV (SBPCH, DJ-SET)<br><br><br><br><br><br><br><br><br><br><br class="STRELKA">STRELKA</BR></div></div>
+  <div>
+  <img class="cubo" src="cubo1.svg" alt="">
+  <img class="cub1" src="cubo1.svg" alt="">
+  <img class="cub2" src="cubo1.svg" alt="">
+  <img class="cub3" src="cubo1.svg" alt="">
+  <img class="cubo4" src="cubo2.svg" alt="">
+  <img class="cubo5" src="cubo2.svg" alt="">
+  <img class="cubo6" src="cubo2.svg" alt="">
+  
+  <img class="cubo7" src="cubo3.svg" alt="">
+  <img class="cubo8" src="cubo3.svg" alt="">
+  <img class="cubo10" src="cubo2.svg" alt="">
+  <img class="cubo11" src="cubo3.svg" alt="">
+  <img class="cubo12" src="cubo3.svg" alt="">
+  <img class="cubo10" src="cubo2.svg" alt="">
+  <img class="cubo13" src="cubo2.svg" alt="">
+  <img class="cubo14" src="cubo2.svg" alt="">
+  
+  </div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
